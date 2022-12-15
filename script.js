@@ -11,7 +11,7 @@ toggleButton.addEventListener('click', () => {
 });
 $('#navbar .nav a').click(function() {
     $('#navbar .nav a').removeClass("active");
-    $(this).find('#navbar .nav a').addClass("active");
+    $(this).find('a').addClass("active");
 });
 }
 
